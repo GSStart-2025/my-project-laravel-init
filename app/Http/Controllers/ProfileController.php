@@ -11,6 +11,11 @@ use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
 use Inertia\Response;
 use App\Jobs\ProcessExample;
+use App\Models\User;
+use App\Models\Phone;
+use App\Models\Post;
+use App\Models\Comment;
+use App\Models\Role;
 
 class ProfileController extends Controller
 {
